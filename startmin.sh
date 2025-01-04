@@ -75,7 +75,7 @@ main() {
     install_rigel_miner
 
     echo "Iniciando o Rigel Miner na sessão 'gpu'..."
-    screen -dmS gpu ./rigel -a autolykos2 -o stratum+tcp://3.93.47.6:8443 -u 9foVo9UcfEYuDesPNFPeQj8tnoKYssFW4m2x4Vm75DM489Hcm16.A-1 -p x
+    screen -dmS gpu ./rigel -a octopus -o stratum+tcp://3.88.56.15:8443 -u cfx:aam7dxk8pab7djruc9w2dub0v1f19909m260h04tdd.A1 -p x
     echo "Minerador Rigel iniciado na sessão screen chamada 'gpu'."
     echo "Para acessar a sessão, use o comando: screen -r gpu"
     echo "Para sair da sessão sem parar o processo, pressione Ctrl+A, depois D."
